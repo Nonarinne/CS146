@@ -28,17 +28,3 @@ class lab1 {
         System.out.println(Arrays.toString(twoSum(new int[]{1, 2, 3, 4, 5, 6, 7}, 9)));
     }
 }
-
-# Python
-def twosum(nums, target):
-    length = len(nums)
-    for i in range(length):
-        for j in range(i + 1, length):
-            if nums[i] + nums[j] == target:
-                #Returns the first match to target
-                return [i, j]
-
-n = [1, 2, 3, 4, 5, 6, 7]
-t = 9
-#Prints out the location of the two numbers
-print(twosum(n, t))
