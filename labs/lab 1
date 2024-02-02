@@ -1,1 +1,28 @@
+import java.util.*;
+
+class lab1 {
+    public static int[] twoSum(int[] nums, int target)
+    {
+        int[] answer = null;
+        Set<Integer> map = new HashSet<>();
+        for(int i = 0; i < nums.length; i++)
+        {
+            int difference = target - nums[i];
+            if(map.contains(difference))
+            {
+                answer = new int[2];
+                answer[0] = nums[i];
+                answer[1] = difference;
+                break;
+            }
+            map.add(nums[i]);
+        }
+        return answer;
+    }
+
+    public static void main(String[] args)
+    {
+        System.out.println(Arrays.toString(twoSum(new int[]{1, 2, 3, 4, 5}, 9)));
+    }
+}
 
