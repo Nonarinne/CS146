@@ -1,0 +1,10 @@
+#Reversal Method
+def isPalindrome(string):
+    if(string == string[::-1] ):
+        return True
+    else:
+        return False
+
+string = input ("Enter string: ")
+
+print(isPalindrome(string))
