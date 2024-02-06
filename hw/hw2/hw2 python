@@ -1,1 +1,16 @@
-
+#Coded and ran tests on LeetCode
+class Solution:
+    def firstBadVersion(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        low = 1
+        high = n
+        while low < high:
+            middle = (low + high) >> 1
+            if isBadVersion(middle):
+                high = middle
+            else:
+                low = middle + 1
+        return low
