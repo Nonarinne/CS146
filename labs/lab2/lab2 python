@@ -1,1 +1,9 @@
+def anagram(first, second):
+    if(sorted(first) == sorted(second)):
+        print(first, "and", second, "are an anagram.")
+    else:
+        print(first, "and", second, "are not an anagram.")
 
+first = input("Enter first word: ")
+second = input("Enter second word: ")
+anagram(first, second)
