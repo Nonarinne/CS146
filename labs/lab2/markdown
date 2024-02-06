@@ -1,0 +1,5 @@
+This assignment was pretty straightforward. The first check is whether or not the two strings inputted are of the same length, and assuming they are,
+the two strings are then sorted alphabetically in a their own character arrays. After this, all that is needed is to check if the two arrays are
+equal to each other. The Java side was something I was again more familiar with, but still took some time and multiple attempts. The Python side 
+made my jaw drop with how streamlined and simple the code was by using the built in sorted method. Seeing how simple and nice Python is is making me 
+want to learn it even more.
