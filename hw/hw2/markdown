@@ -1,0 +1,4 @@
+This assignment took me a little while to figure out how to implement. I had the intuition mostly down, but the main issue was that LeetCode didn't provide what the 
+isBadVersion API looked like, so I kinda had to figure out from different tests what it did exactly. I ended up looking it up to make sure I was on the right path
+and was a bit surprised, cuz the idea I had was going to be a lot more work, where it would have iterated through the array from both sides at the same time,
+whereas the code that other people use simply go one way or the other depending on what the API returned. I need to work on my coding and my intuition.
