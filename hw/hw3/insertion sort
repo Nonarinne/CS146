@@ -1,4 +1,4 @@
-For insertion sort, the best-case time complexity would be O(n) because the elements would already be in order, and they are simply being added to the end, without having to interate through the
-sorted array.
+For insertion sort, the best-case time complexity would be O(n) because the elements would already be in order, and they are simply being added to the end, without having to iterate through the
+sorted array. There would only be one iteration, which goes through the unsorted array to put the elements into the sorted array, meaning it is O(n)
 However, the worst-case time complexity would be O(n^2) because if the order of the elements is reversed, then the elements would need to fully iterate through the sorted array to be inserted
-at the front.
+at the front. There would be one iteration going through the unsorted array, one by one, and then another iteration going through the sorted array, comparing each element, meaning it is O(n^2).
