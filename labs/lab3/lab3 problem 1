@@ -1,0 +1,4 @@
+1) n^3 is asymptotically larger because any value n that is larger than the constant provided will make n^3 larger than 10000000000n^2.
+2) n(log(n))^10 is asymptotically larger because
+3)
+4) 2^2n is asymptotically larger because any value n larger than 1 will make 2^2n larger than 2^n.
