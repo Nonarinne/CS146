@@ -1,1 +1,4 @@
-
+I think that this code would be worst-case O(n^3). First off, I see 3 for loops, which immediately gives me an idea of how long it MIGHT run. However, in class, you mentioned that 
+you cannot simply go off of how many for loops there are because there exists exceptions, so I have to look more deeply into the code. I can see that for each element in rows_A,
+there is another for loop, where for each element of cols_B, there is yet another for loop that multiplies and adds up the sums of each element from both positions of the matrices.
+Because each for loop here has a worst-case runtime of O(n), you have O(n*n*n) which thus equals O(n^3).
