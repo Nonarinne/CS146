@@ -1,1 +1,3 @@
-
+1) The best case would be O(1) when it is an even number.
+2) The worst case would be O(sqrt(n)) when it is a prime number.
+3) The average case would be O(sqrt(n)) because the program runs one of two ways, even numbers which is O(1) and prime numbers which is O(sqrt(n)).
