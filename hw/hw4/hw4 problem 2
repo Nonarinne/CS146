@@ -1,1 +1,4 @@
-
+As I mentioned in HW3, I'm pretty sure the worst, average, and best case time complexity would be O(n^3), based off of the amount of for loops found in the pseudocode and how those for loops run. The first for loop
+goes through all the elements in rows_A, the second goes through all the elements in cols_B, and the last one multiplies and adds up the sums of each element from the matrices. I'm sure that all the time complexities
+are the same because, unlike a sorting algorithm where there is a possibility that the array is already sorted, matrix multiplication is made to take in the elements and work on them, meaning that there is no 
+shortcut for the algorithm. Each for loop would be O(n), so it would be O(n*n*n) and therefore O(n^3) for the worst, average, and best time complexities.
