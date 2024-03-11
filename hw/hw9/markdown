@@ -1,0 +1,1 @@
+This assignment I looked at a few different solutions, as I could not come up with my own. One I saw and used was iterating through the BST, comparing the values, updating the variables, and eventually returning the updated variable.
