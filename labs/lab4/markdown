@@ -1,0 +1,2 @@
+After trying to solve the problem iteratively (and failing), I looked to the solutions for guidance. I saw that a lot of people actually solved this one using recursion on each subtree
+which makes a lot of sense.
